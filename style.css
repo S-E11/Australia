@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	top: 100px;
+	display: flex;
+}
+
+#banner{
+	width: 100%;
+	position: relative;
+	z-index: -1;
+}
+
+#logo{
+	width: 10%;
+	transform: translate(0,-1.5%);
+}
+
+h1{
+	font-family: 'Barlow', sans-serif;
+	position: absolute;
+	font-size: 350%;
+	left: 10px;
+	transform: translate(450%, 650%);
+	color: bright-red;
+
+}
+
+h2{
+	position: absolute;
+}
+
+p{
+	font-size: 150%;
+	color: orangered;
+}
+
+a{
+	text-decoration: none;
+}
+.AusPic{
+	height: 330px;
+	width: 400px;
+	border-radius: 100px;
+	object-fit: cover;
+}
+
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	padding: 10px;
+}
+
+#logo, #topbanner > div, h1, #topBanner > h2{
+	position: absolute;
+}
+
+
+#topBanner > div{
+	transform: translate(120%,);
+}
+
+#topBanner > h2{
+	transform: translate(35%, 500%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+
+}
+
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+#navigationMenu{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
